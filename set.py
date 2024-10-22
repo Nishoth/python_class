@@ -35,6 +35,7 @@ my_set2={"kiwi","watermelon","pineapple","apple"}
 my_set3=my_set1.intersection(my_set2)
 print(my_set3)
 
+# defference 
 my_set1={"apple","orange","mango"}
 my_set2={"kiwi","watermelon","pineapple","apple"}
 my_set3=my_set1.difference(my_set2)
