@@ -12,7 +12,7 @@ name.pop(1)
 print(name)
 name.pop()
 print(name)
-
+#sorting
 name.sort()
 print(name)
 name.sort(reverse=True)
