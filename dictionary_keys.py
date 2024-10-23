@@ -38,14 +38,42 @@ print(my_dict)
 # my_dict.clear()
 print(my_dict)
 
-b = my_dict.copy()
-print(b)
-
+# copy
+x = my_dict.copy()
+print(x)
+# get
+print(my_dict.get("c"))
+# total key 
 print(my_dict.keys())
-
+# total value(data)
 print(my_dict.values())
-
-my_dict.pop("b")  # delete
+# delete
+my_dict.pop("b")  
 print(my_dict)
 
-b = my_dict.pop("b") 
+pop = my_dict.popitem()
+print(pop)
+
+
+x = my_dict.pop("c")
+print(x)
+print(my_dict)
+
+po = my_dict.popitem()
+print(po)
+print(my_dict)
+
+# update
+other_dic = {
+    "n":1,
+    "i":2,
+    "s":3,
+    "h":4
+}
+my_dict.update(other_dic)
+print(my_dict)
+
+a = ("a","b","c","d")
+b = (1,2,3,4)
+c = dict(zip(a,b))
+print(c)
