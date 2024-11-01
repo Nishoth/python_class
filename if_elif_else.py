@@ -3,5 +3,7 @@ age = 20
 if age >= 20:
     print("you can vote")
 else:
-    print("you can't vote")
+    print("you can't vote")   
+
+
 
