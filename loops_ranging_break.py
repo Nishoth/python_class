@@ -60,4 +60,12 @@ for i in range(3,15,3):
 for i in range(10):
     print(i)
     for j in range(2):
-        print("nishoth")
+        print("nishoth" , j)
+        for k in range(3):
+            print("karthik" , k)
+
+for i in range(0,100,2):
+    print(i)
+
+for i in range(1,100,2):
+    print(i)
