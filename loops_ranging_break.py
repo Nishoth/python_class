@@ -44,3 +44,20 @@ for name in names:
         continue
     else:
         print("nishan is not found") 
+
+for i in range(5):
+    print(i)
+
+for i in range(5):
+    print("nishoth")
+
+for i in range(3,15):
+    print(i)
+
+for i in range(3,15,3):
+    print(i)
+
+for i in range(10):
+    print(i)
+    for j in range(2):
+        print("nishoth")
