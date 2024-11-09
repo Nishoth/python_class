@@ -33,11 +33,12 @@ subtraction(100,40)
 def hi(name):
     print("Hi " + name + " welcome you")
 user_name = input("Enter your name: ")
-hi("user_name")
-
-def hi(name):
-    print("Hi " + name + " welcome you")
-
-# Get user input
-user_name = input("Enter your name: ")
 hi(user_name)
+
+# return
+def hi(name):
+    print("hi " + name + " welcome you")
+def fun():
+    return 100
+
+print(fun())
